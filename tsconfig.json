@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "global-telpack": [
+        "dist/global-telpack"
+      ],
+      "global-telpack/*": [
+        "dist/global-telpack/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
